@@ -7,4 +7,6 @@ def activation_func(x):
         ---------
         x: torch.Tensor
     """
+
+    print("activation function has just been called!")
     return 1/(1+torch.exp(-x))
