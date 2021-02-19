@@ -1,6 +1,15 @@
 import torch
 
 def initialize():
+    """Auxiliary Function for variable initialization.
+
+       Arguments:
+       ----------
+
+       Returns:
+       features, weights, bias
+    """
+    
     ### Generate some data
     torch.manual_seed(7) # Set the random seed so things are predictable
 

@@ -8,3 +8,5 @@ features, weights, bias = initialize()
 k = activation_func(torch.matmul(features, weights.view(5, 1)).add(bias))
 
 print(k)
+
+print(initialize.__doc__)
